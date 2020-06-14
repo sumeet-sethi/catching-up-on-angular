@@ -10,19 +10,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MenuComponent } from './menu/menu.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     Comp1Component,
     Comp2Component,
-    Comp3Component
+    Comp3Component,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule, MatIconModule, MatSidenavModule
+    MatToolbarModule, MatIconModule, MatSidenavModule, MatDividerModule, MatListModule, MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
