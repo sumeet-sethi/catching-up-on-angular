@@ -1,6 +1,6 @@
 # Interview
 
-This Angular app is on version 9.1. The purpose of this app is just to prepare for an interview my getting hands on with the topics below:
+This Angular app is on version 9.1. The purpose of this app is just to prepare for an interview by getting hands on with the topics below:
 
 - Progressive Web Apps
 - Service Workers
