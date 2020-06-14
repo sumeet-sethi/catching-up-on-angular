@@ -1,6 +1,21 @@
 # Interview
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This Angular app is on version 9.1. The purpose of this app is just to prepare for an interview my getting hands on with the topics below:
+
+- Progressive Web Apps
+- Service Workers
+- Web Worker
+- Angular Elements (Web Components)
+- RxJs
+- NgRx
+- Promises
+- Observable
+- Redux
+- Sass
+- Angular Reactive Forms
+- Angular Template Driven Forms
+- Jasmine and Karma Unit Testing
+- Protractor
 
 ## Development server
 
