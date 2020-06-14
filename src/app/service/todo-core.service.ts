@@ -14,8 +14,6 @@ export class TodoCoreService {
     this.todoCoreUrl = 'http://localhost:8080/todos';
   }
 
-  // TODO: Hook up to - http://localhost:8080/todos 
-
   getAllTodos(): Observable<Todo[]> {
     return this.httpClient.get<Todo[]>(this.todoCoreUrl);
   }
