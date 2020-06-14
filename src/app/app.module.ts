@@ -14,6 +14,9 @@ import { MenuComponent } from './menu/menu.component';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { TodoCoreService } from './service/todo-core.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -28,9 +31,10 @@ import { MatButtonModule } from '@angular/material/button';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule, MatIconModule, MatSidenavModule, MatDividerModule, MatListModule, MatButtonModule
+    MatToolbarModule, MatIconModule, MatSidenavModule, MatDividerModule, MatListModule, MatButtonModule, MatCardModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [TodoCoreService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

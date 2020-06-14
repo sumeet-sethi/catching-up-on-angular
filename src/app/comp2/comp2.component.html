@@ -1,1 +1,15 @@
 <p>comp2 works!</p>
+
+<mat-card>
+    <mat-card-title>
+        List of ToDos
+    </mat-card-title>
+    <mat-list>
+        <mat-list-item *ngFor="let todo of listOfTodos">
+            <mat-divider></mat-divider>
+            <mat-card-subtitle>{{todo.title | uppercase}}</mat-card-subtitle>
+            <mat-card-content>{{todo.description | lowercase}}</mat-card-content>
+            <mat-card-footer><mat-icon>person</mat-icon> - {{todo.userName | uppercase}}</mat-card-footer>
+        </mat-list-item>
+    </mat-list>
+</mat-card>
